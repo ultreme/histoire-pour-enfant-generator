@@ -19,11 +19,16 @@ book.md:
 	echo "" | tee -a book.md
 	for i in {1..100}; do \
 	  printf "# " | tee -a book.md; \
-	  histoire-pour-enfant-generator | tee -a book.md; \
+	  histoire-pour-enfant-generator | sed G | tee -a book.md; \
 	  echo "" | tee -a book.md; \
 	  echo "---" | tee -a book.md; \
 	  echo "" | tee -a book.md; \
 	done
 
-book: book.md
+book: clean book.epub
+
+clean:
+	rm -f book.epub book.md
+
+book.epub: book.md
 	pandoc book.md --epub-cover-image=cover.jpg --epub-metadata=metadata.xml -o book.epub
