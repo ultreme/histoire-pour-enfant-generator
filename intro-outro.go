@@ -18,7 +18,7 @@ func init() {
 		"Et c'était la fête",
 		"Et c'était plutôt cool",
 		"Et c'est ainsi que l'homme marcha sur la lune",
-		"Et il eut son poid en pomme",
+		"Et il eut son poids en pomme",
 		"Et elle devint astronaute",
 		"Et il mangea ses céréales au gouter",
 		"Et il devint magicien",

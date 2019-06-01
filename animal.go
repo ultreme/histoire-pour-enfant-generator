@@ -19,7 +19,7 @@ func init() {
 		"Babar l'éléphant",
 		"Sonic le hérisson",
 		"Denver le dernier dinosaure",
-		"Victor le tyranosaure",
+		"Victor le tyrannosaure",
 	}
 	AnimalPhrases = []string{
 		"Il y avait :NAME:",
@@ -33,7 +33,7 @@ func init() {
 	AnimalComplementPhrases = []string{
 		"sa passion est de manger des pommes",
 		"son repas préféré est le gouter",
-		"son plus grand rève est d'aller voir un film au cinéma",
+		"son plus grand rêve est d'aller voir un film au cinéma",
 		"ses parents sont les plus gentils du monde",
 		"son repas favoris est la pizza",
 		"son matelas est moelleux",
