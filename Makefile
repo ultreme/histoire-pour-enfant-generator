@@ -30,5 +30,5 @@ book: clean book.epub
 clean:
 	rm -f book.epub book.md
 
-book.epub: book.md
-	pandoc book.md --epub-cover-image=cover.jpg --epub-metadata=metadata.xml -o book.epub
+book.docx book.epub: book.md
+	pandoc book.md --epub-cover-image=cover.jpg --epub-metadata=metadata.xml -o $@
