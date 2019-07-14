@@ -16,6 +16,7 @@ func init() {
 		"Hector le castor",
 		"Mireille l'abeille",
 		"Jordy le colibri",
+		"Momo le caribou",
 		"Babar l'éléphant",
 		"Sonic le hérisson",
 		"Denver le dernier dinosaure",
