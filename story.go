@@ -23,6 +23,8 @@ type Story struct {
 }
 
 func NewStory() Story {
+	resetIntros()
+	resetAnimals()
 	return Story{
 		Elems: make([]Elem, 0),
 	}

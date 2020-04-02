@@ -6,6 +6,10 @@ var (
 )
 
 func init() {
+	resetIntros()
+}
+
+func resetIntros() {
 	Intros = []string{
 		"Il était une fois... dans un monde fabuleux...",
 		"En 50 avant jésus-christ...",

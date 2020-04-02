@@ -10,10 +10,10 @@ var (
 )
 
 func init() {
-	Reset()
+	resetAnimals()
 }
 
-func Reset() {
+func resetAnimals() {
 	AnimalNames = []string{
 		"Potam l'hippopotame",
 		"Sophie la girafe",
